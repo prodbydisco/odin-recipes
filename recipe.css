@@ -1,0 +1,76 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.topContainer {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#homeIcon, .titleContainer img {
+    filter: invert(84%) sepia(5%) saturate(15%) hue-rotate(360deg) brightness(20%) contrast(94%);
+}
+
+h1 {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.imgContainer {
+    width: 80vw;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#exampleImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fits nicely */
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.titleContainer img {
+    margin: 0;
+    padding: 0;
+    border-radius: none;
+    width: 22px;
+    height: auto;
+}
+
+.titleContainer h2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+}
+
+h1, h2, a, p {
+    color: #333;
+}
+
+img {
+    border-radius: 8px;
+}
+ul, ol {
+    margin-left: 6px;
+}
+
+li {
+    padding: 6px 0 0 0;
+}

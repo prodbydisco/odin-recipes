@@ -3,12 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 
     <title>Odin Recipes</title>
+
+    <style>
+        html {
+            margin: 0 auto;
+        }
+        
+        body {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            width: 80vw;
+            background-color: #fafafa;
+        }
+
+        h1, h2, a {
+            color: #333;
+        }
+        
+        a {
+            text-decoration: none;
+            width: max-content;
+            padding: 4px 6px;
+            transition: 0.3s;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+
+        a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .topContainer {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            filter: invert(84%) sepia(5%) saturate(15%) hue-rotate(360deg) brightness(22%) contrast(94%);
+        }
+        
+    </style>
 </head>
+
+
+
 <body>
-    <h1>Odin Recipes</h1>
+    <div class="topContainer">
+        <img src="./images/fire-solid.svg" alt="Fire Icon" width="32px" height="auto">
+        <h1>Odin Recipes</h1>
+    </div>
 
     <a href="./recipes/cheeseontoast.html">Cheese on Toast</a>
     <a href="./recipes/scrambledegg.html">Scrambled Egg</a>
