@@ -1,1 +1,1 @@
-# odin-recipes
+# This is a simple website to solidify my understanding of basic HTML, CSS & maybe JavaScript.
